@@ -2,7 +2,7 @@
 
 Official code for the paper: **Whole-Body Inverse Dynamics MPC for Legged Loco-Manipulation**, IEEE Robotics and Automation Letters (RA-L) 2025. Lukas Molnar, Jin Cheng, Gabriele Fadini, Dongho Kang, Fatemeh Zargarbashi, Stelian Coros. *ETH Zurich*
 
-[<u>Paper</u>](https://ieeexplore.ieee.org/document/11266934) | [<u>Video</u>](https://www.youtube.com/watch?v=glWWE-754mI&t=16s) | [<u>Website</u>](https://lukasmolnar.github.io/wb-mpc-locoman/)
+[<u>Paper</u>](https://ieeexplore.ieee.org/document/11266934) | [<u>arXiv</u>](https://arxiv.org/abs/2511.19709) | [<u>Video</u>](https://www.youtube.com/watch?v=glWWE-754mI&t=16s) | [<u>Website</u>](https://lukasmolnar.github.io/wb-mpc-locoman/)
 
 <p float="left">
   <img src="utils/media/b2_z1_tracking.gif" width="49%" />
@@ -87,8 +87,7 @@ If you use this code in your research, please cite our paper:
   number={},
   pages={1-8},
   keywords={Dynamics;Robots;Robot kinematics;Manipulator dynamics;Legged locomotion;Force;Quadrupedal robots;Foot;Real-time systems;Planning;Legged Robots;Mobile Manipulation;Whole-Body Motion Planning and Control},
-  doi={10.1109/LRA.2025.3636005}
-}
+  doi={10.1109/LRA.2025.3636005}}
 ```
 
 ## License
