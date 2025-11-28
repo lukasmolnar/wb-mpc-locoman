@@ -4,14 +4,18 @@ Currently only **Fatrop** code-generation is supported. This is what was used in
 
 ## Setup
 
-Install **Fatrop** and **Blasfeo** libraries from source. Make sure the **Blasfeo** include directory is correct in `CMakeLists.txt`.
+Install the following libraries from source:
+- **Fatrop**: Tested with `v0.0.4`.
+- **Blasfeo**: Tested with `0.1.4.1`.
+
+Make sure the local **Blasfeo** include directory is correct in `CMakeLists.txt`.
 
 ## Usage
 
 1. **Generate C code**: In `main.py`, set `compile_solver=True`. This will create `solver_function.c` in the project root.
 2. **Compile the solver**: Move `solver_function.c` into this directory, and compile it from the `/build` folder (this will take a while):
       ```bash
-      cd build
+      mkdir build && cd build
       cmake ..
       make
       ```
